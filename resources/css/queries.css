@@ -1,0 +1,158 @@
+/*  For big tablet to computer from 1024 to 1200 (smaller than our pixel row)  */
+        /***************************/
+@media only screen and (max-width: 1200px) {
+    
+    .row {  padding-right: 2%;
+            padding-left: 2%;
+    }
+}
+
+/*  For small tablets to big tablets from 768 to 1023px  */
+        /***************************/
+@media only screen and (max-width: 1023px) {
+    
+    body {font-size: 18px;}
+    
+    section {padding: 40px 0;}
+    
+    .abt-me p { width: 90%; }
+    
+    .txt-box { margin: 0 auto; }
+    
+    .contact-form { margin: 40px auto;}
+    
+    .social-network {
+        width: 100%;
+        margin: 70px auto;
+    }
+    
+} 
+
+
+
+/*  small phones to samall tablet from 481 to 767px  */
+        /***************************/
+@media only screen and (max-width: 767px) {
+    
+    section {padding: 40px 0;}
+    
+    body {font-size: 16px;}
+
+    .main-nav li a:link,
+    .main-nav li a:visited { font-size: 130%; }
+  
+    .bold-border {margin-left: 10px;}
+    
+    h4:after {
+        height: 2px;
+        background-image: #0d2f5b;
+        background-color: #0d2f5b;
+        width: 100px;
+    }
+    
+    .intro { font-size: 195%; letter-spacing: 3px;}
+    
+    h4 {font-size: 70%; letter-spacing: 1px;}
+    
+    .services h4 {font-size: 90%;}
+    
+    .work-showcase li {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .abt-me p {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin-top: 0;
+    }
+    
+    .work-box { margin: 60px auto 0 auto; }
+    
+    .img-box {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+    }
+    
+    .txt-box {
+        width: 100%; 
+        float: none;
+    }
+    
+    .txt-box p { width: 100%; font-size: 85%;}
+    
+    
+    .box p { padding: 5px 15px; }
+    
+    .box .icon-big { margin-top: 40px;}
+    
+    .social-network {
+        width: 100%;
+        margin: 30px auto 5px auto;
+    }
+    
+    .social-network li a:link,
+    .social-network li a:visited {
+        display: inline-block;}
+    
+    .btn-small { padding: 10px; }
+    
+    .footer-nav li a:link,
+    .footer-nav li a:visited { margin-left: 20px; }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+}
+
+
+
+/*  for small screens (phones) from 0 to 480px  */
+        /***************************/
+@media only screen and (max-width: 480px) {
+    
+    
+    h1 { font-size: 150%; }
+
+    h2 {
+        font-size: 90%;
+        margin-top: -10px;
+    }
+    
+    .hero-box a:link,
+    .hero-box a:visited { padding: 10px; }
+    
+    h4 {font-size: 65%;}
+    
+    .services h4 {font-size: 85%;}
+
+    .main-nav li a:link,
+    .main-nav li a:visited { font-size: 100%; }
+    
+    .logo-nav {
+        height: 90px;
+        width: 90px;
+        margin: 60px auto 10px auto;
+    }
+    
+    .intro { font-size: 170%; }
+    
+    .box p { padding: 2px 15px; }
+    
+    .box .icon-big { margin-top: 40px;}
+    
+    .contact-form { width: 100%;}
+    
+    textarea::-webkit-input-placeholder { padding-top: 150px; }
+    
+    textarea:-ms-input-placeholder { padding-top: 150px; }
+    
+    textarea::placeholder { padding-top: 150px; }
+    
+    .btn-small { padding: 10px; }
+    
+}
